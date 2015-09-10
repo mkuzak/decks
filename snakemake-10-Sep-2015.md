@@ -9,13 +9,13 @@
 
 # GNU Make
 
-## the good
+## The good
 - text based
 - rule pardigm
 - lightweight
 - initial release 1977
 
-## the bad and ugly
+## The bad and ugly
 - cryptic syntax
 - limited scripting
 - missing support for multiple output files and wildcards
@@ -59,7 +59,7 @@ rule express:
 
 ---
 
-# more features
+# More features
 
 ```bash
 # visaulize the DAG of jobs
