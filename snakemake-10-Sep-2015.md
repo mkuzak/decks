@@ -1,6 +1,8 @@
-# [Snakemake](johanneskoester)
+# Snakemake
 
 ## Scalable bioinformatics workflow engine
+[https://bitbucket.org/johanneskoester/snakemake](https://bitbucket.org/johanneskoester/snakemake)
+
 ## Developer: Johannes Koster
 
 ---
@@ -30,6 +32,8 @@ rule myrule:
 	shell : ”cut - f1 < {input} > {output}”
 ```
 
+---
+
 ## Example
 
 ```yaml
@@ -52,6 +56,9 @@ rule express:
 	shell:
 		”express {input} -o {wildcards.sample}”
 ```
+
+---
+
 # more features
 
 ```bash
@@ -70,6 +77,8 @@ snakemake --jobs 20 --cluster "qsub -pe threaded {threads}"
 # execute on the cluseter using DRMAA API
 snakemake --jobs 20 --drmaa
 ```
+
+---
 
 # Summary
 - a readable syntax
